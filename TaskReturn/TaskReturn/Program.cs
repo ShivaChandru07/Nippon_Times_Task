@@ -8,6 +8,9 @@ using Microsoft.OpenApi.Models;
 using TaskReturn.BusinessRepo;
 using Serilog;
 using Serilog.Formatting.Json;
+using AutoMapper;
+using TaskReturn.Request;
+using TaskReturn.Model;
 
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
@@ -42,9 +45,19 @@ var logger = new LoggerConfiguration()
    .CreateLogger();
 builder.Logging.ClearProviders();
 builder.Logging.AddSerilog(logger);
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 builder.Services.AddControllers();
 builder.Services.AddHostedService<TaskService>();
+var mappingConfig = new MapperConfiguration(mc =>
+{
+    mc.CreateMap<EmployeeRequest, EmployeeInfo>()
+        .ForMember(dest => dest.ID, opt => opt.Ignore());
+    mc.CreateMap<EmployeeInfo, EmployeeRequest>();
+});
+
+IMapper mapper = mappingConfig.CreateMapper();
+builder.Services.AddSingleton(mapper);
 
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

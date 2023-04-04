@@ -27,13 +27,6 @@ namespace TaskReturn.Controllers
            mtaskDBContext.EmployeeInfo.Add(employee1);
             await mtaskDBContext.SaveChangesAsync();
             return $"Created-{employee1.ID}";   
-            
-            //var config = new MapperConfiguration(cfg => cfg.AddProfile<EmployeeMapping>());
-            //IMapper mapper = new Mapper(config);
-
-            //var employee = mapper.Map<EmployeeRequest, Employee>(employeeRequest).ToString();
-
-            //return employee;
         }
     }
 }

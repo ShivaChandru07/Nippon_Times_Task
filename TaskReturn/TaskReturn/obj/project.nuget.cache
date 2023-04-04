@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "iDyPCa/jnT1PwRoEcEQjGJCM0PTXKx5nifN/vESZ6u0hcQKwxHqnH3nzo6DteLCBxBTSdNsq8yaWoETreHZtPg==",
+  "dgSpecHash": "fQ8qJFmqXPm8owaeHLe5byZaQRfbAL3/1iDEGr1CjJuJrzE2lQGgm4cmv2KnHylS57Mi8ChjEQRVXeZtAcf9jA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Triton-004\\source\\repos\\TaskReturn\\TaskReturn\\TaskReturn.csproj",
+  "projectFilePath": "C:\\Users\\Triton-004\\source\\repos\\TasksRepo\\Nippon_Times_Task\\TaskReturn\\TaskReturn\\TaskReturn.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Triton-004\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\Triton-004\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\Triton-004\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\Triton-004\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Triton-004\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.15\\microsoft.entityframeworkcore.6.0.15.nupkg.sha512",
     "C:\\Users\\Triton-004\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.15\\microsoft.entityframeworkcore.abstractions.6.0.15.nupkg.sha512",
     "C:\\Users\\Triton-004\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.15\\microsoft.entityframeworkcore.analyzers.6.0.15.nupkg.sha512",

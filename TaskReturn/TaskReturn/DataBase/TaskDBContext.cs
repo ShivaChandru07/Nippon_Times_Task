@@ -13,6 +13,7 @@ namespace TaskReturn.DataBase
         }
         public DbSet<Tasks> Task { get; set; }
         public DbSet <StudentInfo> StudentInfo { get; set; }
+        public DbSet<EmployeeInfo> EmployeeInfo { get; set; }
 
     }
 }

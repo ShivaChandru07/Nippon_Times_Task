@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Triton-004\\source\\repos\\TaskReturn\\TaskReturn\\TaskReturn.csproj": {}
+    "C:\\Users\\Triton-004\\source\\repos\\TasksRepo\\Nippon_Times_Task\\TaskReturn\\TaskReturn\\TaskReturn.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Triton-004\\source\\repos\\TaskReturn\\TaskReturn\\TaskReturn.csproj": {
+    "C:\\Users\\Triton-004\\source\\repos\\TasksRepo\\Nippon_Times_Task\\TaskReturn\\TaskReturn\\TaskReturn.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Triton-004\\source\\repos\\TaskReturn\\TaskReturn\\TaskReturn.csproj",
+        "projectUniqueName": "C:\\Users\\Triton-004\\source\\repos\\TasksRepo\\Nippon_Times_Task\\TaskReturn\\TaskReturn\\TaskReturn.csproj",
         "projectName": "TaskReturn",
-        "projectPath": "C:\\Users\\Triton-004\\source\\repos\\TaskReturn\\TaskReturn\\TaskReturn.csproj",
+        "projectPath": "C:\\Users\\Triton-004\\source\\repos\\TasksRepo\\Nippon_Times_Task\\TaskReturn\\TaskReturn\\TaskReturn.csproj",
         "packagesPath": "C:\\Users\\Triton-004\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Triton-004\\source\\repos\\TaskReturn\\TaskReturn\\obj\\",
+        "outputPath": "C:\\Users\\Triton-004\\source\\repos\\TasksRepo\\Nippon_Times_Task\\TaskReturn\\TaskReturn\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Triton-004\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.15, )"

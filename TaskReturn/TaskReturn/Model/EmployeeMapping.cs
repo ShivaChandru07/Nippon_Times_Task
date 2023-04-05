@@ -7,9 +7,7 @@ namespace TaskReturn.Model
     {
         public EmployeeMapping()
         {
-            CreateMap<EmployeeRequest, EmployeeInfo>();
-
-            
+            CreateMap<EmployeeRequest, EmployeeInfo>();            
         }
     }
 }

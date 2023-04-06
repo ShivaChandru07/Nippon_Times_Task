@@ -5,6 +5,8 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using TaskReturn.DataBase;
 using TaskReturn.Model;
 using TaskReturn.Request;
+using TaskReturn.Response;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace TaskReturn.Controllers
 {
@@ -45,5 +47,24 @@ namespace TaskReturn.Controllers
             return Ok(emp.ToList());
         }
 
+        [HttpGet("GetCompanyName")]
+        public async Task<IActionResult> GetCompany()
+        {
+            var com = mtaskDBContext.Company;
+            var emp = mtaskDBContext.Employee;
+            var gut = from a in com
+                     join b in emp on a.ID equals b.EmpID
+                     select new { Company = a, Employee = b };
+
+            var result = gut.Select(x => new
+            {
+                Company = mmapper.Map<CompanyResponse>(x.Company),
+                Employee = mmapper.Map<EmployeeResponse>(x.Employee)
+            }).ToList();
+            return Ok(result);
+
+        }
     } 
 }
+  
+

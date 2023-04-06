@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using TaskReturn.Request;
+using TaskReturn.Response;
 
 namespace TaskReturn.Model
 {
@@ -7,7 +8,9 @@ namespace TaskReturn.Model
     {
         public EmployeeMapping()
         {
-            CreateMap<EmployeeRequest, EmployeeInfo>();            
+            CreateMap<EmployeeRequest, EmployeeInfo>();
+           
         }
+
     }
 }

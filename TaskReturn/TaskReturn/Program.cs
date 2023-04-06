@@ -11,6 +11,7 @@ using Serilog.Formatting.Json;
 using AutoMapper;
 using TaskReturn.Request;
 using TaskReturn.Model;
+using TaskReturn.Response;
 
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
@@ -41,7 +42,7 @@ builder.Services.AddCors(options =>
 var logger = new LoggerConfiguration()
    .ReadFrom.Configuration(builder.Configuration)
    .Enrich.FromLogContext()
-   .WriteTo.File(new JsonFormatter(),"C:\\Logger_log\\Log-.log.txt")    
+   .WriteTo.File(new JsonFormatter(), "C:\\Logger_log\\Log-.log.txt")
    .CreateLogger();
 builder.Logging.ClearProviders();
 builder.Logging.AddSerilog(logger);
@@ -52,8 +53,10 @@ builder.Services.AddHostedService<TaskService>();
 var mappingConfig = new MapperConfiguration(mc =>
 {
     mc.CreateMap<EmployeeRequest, EmployeeInfo>()
-        .ForMember(dest => dest.ID, opt => opt.Ignore());
+     .ForMember(dest => dest.ID, opt => opt.Ignore());
     mc.CreateMap<EmployeeInfo, EmployeeRequest>();
+    mc.CreateMap<Company, CompanyResponse>();
+    mc.CreateMap<Employee, EmployeeResponse>();
 });
 
 IMapper mapper = mappingConfig.CreateMapper();

@@ -110,3 +110,17 @@ C:\Users\Triton-004\source\repos\TasksRepo\Nippon_Times_Task\TaskReturn\TaskRetu
 C:\Users\Triton-004\source\repos\TasksRepo\Nippon_Times_Task\TaskReturn\TaskReturn\obj\Debug\net6.0\TaskReturn.pdb
 C:\Users\Triton-004\source\repos\TasksRepo\Nippon_Times_Task\TaskReturn\TaskReturn\obj\Debug\net6.0\TaskReturn.genruntimeconfig.cache
 C:\Users\Triton-004\source\repos\TasksRepo\Nippon_Times_Task\TaskReturn\TaskReturn\obj\Debug\net6.0\ref\TaskReturn.dll
+C:\Users\Triton-004\source\repos\TasksRepo\Nippon_Times_Task\TaskReturn\TaskReturn\bin\Debug\net6.0\Grpc.Core.dll
+C:\Users\Triton-004\source\repos\TasksRepo\Nippon_Times_Task\TaskReturn\TaskReturn\bin\Debug\net6.0\Grpc.Core.Api.dll
+C:\Users\Triton-004\source\repos\TasksRepo\Nippon_Times_Task\TaskReturn\TaskReturn\bin\Debug\net6.0\runtimes\linux-arm64\native\libgrpc_csharp_ext.arm64.so
+C:\Users\Triton-004\source\repos\TasksRepo\Nippon_Times_Task\TaskReturn\TaskReturn\bin\Debug\net6.0\runtimes\linux-x64\native\libgrpc_csharp_ext.x64.so
+C:\Users\Triton-004\source\repos\TasksRepo\Nippon_Times_Task\TaskReturn\TaskReturn\bin\Debug\net6.0\runtimes\osx-x64\native\libgrpc_csharp_ext.x64.dylib
+C:\Users\Triton-004\source\repos\TasksRepo\Nippon_Times_Task\TaskReturn\TaskReturn\bin\Debug\net6.0\runtimes\win-x64\native\grpc_csharp_ext.x64.dll
+C:\Users\Triton-004\source\repos\TasksRepo\Nippon_Times_Task\TaskReturn\TaskReturn\bin\Debug\net6.0\runtimes\win-x86\native\grpc_csharp_ext.x86.dll
+C:\Users\Triton-004\source\repos\TasksRepo\Nippon_Times_Task\TaskReturn\TaskReturn\bin\Debug\net6.0\Magnum.dll
+C:\Users\Triton-004\source\repos\TasksRepo\Nippon_Times_Task\TaskReturn\TaskReturn\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Triton-004\source\repos\TasksRepo\Nippon_Times_Task\TaskReturn\TaskReturn\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Triton-004\source\repos\TasksRepo\Nippon_Times_Task\TaskReturn\TaskReturn\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Triton-004\source\repos\TasksRepo\Nippon_Times_Task\TaskReturn\TaskReturn\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Triton-004\source\repos\TasksRepo\Nippon_Times_Task\TaskReturn\TaskReturn\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Triton-004\source\repos\TasksRepo\Nippon_Times_Task\TaskReturn\TaskReturn\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll

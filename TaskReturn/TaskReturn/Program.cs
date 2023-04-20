@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Hosting;
 
 using Microsoft.OpenApi.Models;
-using TaskReturn.BusinessRepo;
+//using TaskReturn.BusinessRepo;
 using Serilog;
 using Serilog.Formatting.Json;
 using AutoMapper;
@@ -17,6 +17,7 @@ WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddEntityFrameworkNpgsql().AddDbContext<TaskDBContext>(opt =>
         opt.UseNpgsql(builder.Configuration.GetConnectionString("DbConnection")));
+
 
 //Cors Policy
 
@@ -49,7 +50,7 @@ builder.Logging.AddSerilog(logger);
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 builder.Services.AddControllers();
-builder.Services.AddHostedService<TaskService>();
+//builder.Services.AddHostedService<TaskService>();
 var mappingConfig = new MapperConfiguration(mc =>
 {
     mc.CreateMap<EmployeeRequest, EmployeeInfo>()
@@ -59,9 +60,9 @@ var mappingConfig = new MapperConfiguration(mc =>
     mc.CreateMap<Employee, EmployeeResponse>();
 });
 
+
 IMapper mapper = mappingConfig.CreateMapper();
 builder.Services.AddSingleton(mapper);
-
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 

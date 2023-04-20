@@ -18,5 +18,6 @@ namespace TaskReturn.DataBase
 
         public DbSet<Employee> Employee { get; set; }
         public DbSet<Company> Company { get; set; }
+        public DbSet<Images> Images { get; set; }
     }
 }

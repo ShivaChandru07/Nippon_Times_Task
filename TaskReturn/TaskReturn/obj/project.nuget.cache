@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YZTz7pIXXuiA9W/deE1OLibpKf7s4OQBAAiiEzTkL6eLt0N2u/XZrfx0TwBBeeg8tzQv0mkaeVk6w5se0BLz+w==",
+  "dgSpecHash": "jlJk21vZTJh+A9QnBoCCg6Pef9MNapg20mntG0DC742mJexw+Ewu7LixfisYGvcyP+zIeap9l4alJImX4qnoFw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Triton-004\\source\\repos\\TasksRepo\\Nippon_Times_Task\\TaskReturn\\TaskReturn\\TaskReturn.csproj",
   "expectedPackageFiles": [
@@ -60,6 +60,7 @@
     "C:\\Users\\Triton-004\\.nuget\\packages\\serilog.sinks.console\\4.0.1\\serilog.sinks.console.4.0.1.nupkg.sha512",
     "C:\\Users\\Triton-004\\.nuget\\packages\\serilog.sinks.debug\\2.0.0\\serilog.sinks.debug.2.0.0.nupkg.sha512",
     "C:\\Users\\Triton-004\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
+    "C:\\Users\\Triton-004\\.nuget\\packages\\sixlabors.imagesharp\\3.0.1\\sixlabors.imagesharp.3.0.1.nupkg.sha512",
     "C:\\Users\\Triton-004\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\Triton-004\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\Triton-004\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
